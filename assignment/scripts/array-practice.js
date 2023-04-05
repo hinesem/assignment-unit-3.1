@@ -19,8 +19,8 @@ console.log('log your array of foods: ');
 console.log(favFood);
 console.log(favDrink);
 console.log(favFood[1]);
+console.log(`The second item in the third nested array is: ${favFood[2][1]}`);
 
-favFood.push
 
 // 2. Array.length - tells you how many items are in the array
 // Example: How many animals are in the array? 
@@ -28,10 +28,10 @@ console.log('Number of animals:', animalArray.length);
 
 
 // 2.a. TODO: Log to the console the number of foods in your array
-console.log(favFood.length);
 console.log('--- 2. Length of an array ---');
+console.log(favFood.length);
 console.log(favDrink.length);
-console.log(`there are ${favDrink.length} items in your favorite drinks list which are: ${favDrink}`)
+console.log(`there are ${favDrink.length} items in your favorite drinks list which are: ${favDrink}`);
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
